@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "prisma generate && tsc"
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
