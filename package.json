@@ -4,7 +4,7 @@
   "main": "dist/app.js",
   "scripts": {
     "dev": "nodemon",
-    "build": "prisma generate && tsc"
+    "build": "prisma generate && tsc",
     "postinstall": "prisma generate"
   },
   "dependencies": {
